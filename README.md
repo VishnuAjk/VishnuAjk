@@ -29,9 +29,6 @@ As an anime fan, I'm always exploring new series.
 My ultimate goal is to become an expert in various tech fields, 
 including Coding, Ethical hacking, Networking, AI, and Robotics.
 
-## 📚 My GitHub Stats
-
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=VishnuAjk&show_icons=true&theme=radical)
 
 ## 🚀 My Top Projects
 
