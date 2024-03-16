@@ -31,7 +31,7 @@ including Coding, Ethical hacking, Networking, AI, and Robotics.
 
 ## 📚 My GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=your_username&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=VishnuAjk&show_icons=true&theme=radical)
 
 ## 🚀 My Top Projects
 
