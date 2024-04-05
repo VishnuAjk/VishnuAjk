@@ -1,0 +1,75 @@
+
+.cube{
+    height: 190px;
+    width: 190px;
+    position: fixed;
+    top: 20%;
+    left:82%;
+    transform-style: preserve-3d;
+    perspective: 8000px;
+    transform: rotateX(45deg) rotateY(45deg) rotateZ(0deg);
+    animation: rotateCube 10s linear infinite alternate; 
+    cursor: grab;
+}
+
+@keyframes rotateCube{
+    0% {
+        transform: rotateX(45deg) rotateY(45deg) rotateZ(0deg); /* Start at the initial rotation */
+    }
+    16.67% {
+        transform: rotateX(95deg) rotateY(45deg) rotateZ(-90deg); /* Rotate to show face two */
+    }
+    33.33% {
+        transform: rotateX(155deg) rotateY(45deg) rotateZ(-180deg); /* Rotate to show face three */
+    }
+    50% {
+        transform: rotateX(185deg) rotateY(45deg) rotateZ(-270deg); /* Rotate to show face four */
+    }
+    66.67% {
+        transform: rotateX(155deg) rotateY(45deg) rotateZ(-360deg); /* Rotate to show face five */
+    }
+    83.33% {
+        transform: rotateX(95deg) rotateY(45deg) rotateZ(-450deg); /* Rotate to show face six */
+    }
+    100% {
+        transform: rotateX(45deg) rotateY(45deg) rotateZ(-540deg); /* Rotate back to the initial rotation */
+    }
+}
+
+.face{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 30px 10px;
+}
+.one{
+    background-image: linear-gradient(to bottom right,black, rgb(59, 59, 59));
+    transform: rotateY(180deg) translateZ(0px) translateX(0px);
+}
+.two{
+    background-image: linear-gradient(to bottom right, rgb(59, 59, 59), black);
+    transform: rotateY(-90deg) translateZ(100px) translateX(100px);
+}
+.three{
+    background-image: linear-gradient(to bottom right,black, rgb(59, 59, 59));
+    transform: rotateX(90deg) translateZ(100px) translateY(100px);
+}
+.four{
+    background-image: linear-gradient(to bottom right, rgb(59, 59, 59), black);
+    transform: translateZ(200px);
+}
+.five{
+    background-image: linear-gradient(to bottom right,black, rgb(59, 59, 59));
+    transform: rotateY(90deg) translateZ(100px) translateX(-100px);
+}
+.six{
+    background-image: linear-gradient(to bottom right, rgb(59, 59, 59), black);
+    transform: rotateX(-90deg) translateZ(100px) translateY(-100px);
+}
+

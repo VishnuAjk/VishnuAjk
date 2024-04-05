@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newResume</title>
+    <link href="newResume.css" rel="stylesheet">
+    <link rel="stylesheet" href="cube.css">
+    <script src="https://kit.fontawesome.com/2eafec57ec.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header id="body-header">
+        <nav class="nav-bar">
+            <div class="nav-bar-list">
+                <div class="horizontal-list nav-menu">
+                    <div><a href="#">Home</a></div>
+                    <div><a href="#about">About</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#portfolio">Portfolio</a></div>
+                    <div><a href="#experience">Experience</a></div>
+                    <div><a href="#career">Career</a></div>
+                    <div><a href="#education">Education</a></div>
+                    <div><a href="#contact">Contact</a></div>
+                </div>
+            </div>
+
+            <div class="nav-icon dropdown">
+                <i class="fa-solid fa-burger " onclick='toggleDropdown()'></i>
+                <div id="nav-dropdown" class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#career">Career</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <h1 id="myName">
+            Vishnu Ajikumar
+        </h1>
+        <div id="social-container" class=" text-center">
+            <ul class="social-icons horizontal-list text-center">
+                <li>
+                    <a href="https://www.linkedin.com/in/vishnu-a-604a95179/">
+                     <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="https://auth.geeksforgeeks.org/user/comrade04p9">
+                        <i class="fa-solid fa-g"></i>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="https://leetcode.com/Vishnu_vishu/">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                       <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/VishnuAjk">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="cube" id="draggable">
+            <div class="face one">
+                Learner
+            </div>
+            <div class="face two">
+                Explorer
+            </div>
+            <div class="face three">
+                Problem Solver
+            </div>
+            <div class="face four">
+                Perseverence
+            </div>
+            <div class="face five">
+                Consistency
+            </div>
+            <div class="face six">
+                Smart Work
+            </div>
+            
+        </div>
+    </header>
+
+    <main>
+        <!-- About section -->
+        <section id="about">
+            <div id="mypic"  onclick="openModal()">
+                <img src="images/MyPic1.jpg" alt="mypic">  
+            </div>
+            <div id="myModal" class="modal" onclick="closeModal()">
+                <img src="images/MyPic1.jpg" alt="mypic" class="modal-content">
+            </div>
+            <div id="description">
+                <p id="profile-summary">
+                    Aspiring Full-Stack Developer with a diverse background in Electronics and Communication Science, showcasing adaptability and 
+                    a passion for technology. Eager to leverage a solid foundation in problem-solving and critical thinking developed during my 
+                    academic journey. Proficient in a range of technologies including Java, HTML, CSS, JavaScript, Node.js, and React. Committed to 
+                    continuous learning and staying updated with the latest industry trends. A dedicated and fast learner, excited to contribute to dynamic projects, 
+                    collaborate with talented teams, and make a meaningful impact in the world of Full Stack Development.
+                </p>
+            </div>
+        </section>
+        <!-- Skills Section -->
+
+         <section id="skills">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                </span>
+                <span>SKILLS</span>
+            </h1>
+            <div class="skills-display">
+
+                <div class="skill-progress">       
+                    <div class="ninty-percent mb-orange" data-skill-level="90%">
+                        <div class="skill-name">
+                            <span>HTML </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">       
+                    <div class="ninty-percent  mb-skyBlue" data-skill-level="90%">
+                        <div class="skill-name">
+                            <span>CSS </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">       
+                    <div class="eighty-percent mb-yellow" data-skill-level="80%">
+                        <div class="skill-name">
+                            <span>JavaScript </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">       
+                    <div class="thirty-five-percent mb-skyBlue" data-skill-level="85%">
+                        <div class="skill-name">
+                            <span>React  </span>
+                        </div>
+                    </div>
+                </div>  
+                
+                <div class="skill-progress">       
+                    <div class="ninty-percent mb-purple" data-skill-level="90%">
+                        <div class="skill-name">
+                            <span>NodeJs  </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">       
+                    <div class="eighty-five-percent mb-blue" data-skill-level="85%">
+                        <div class="skill-name">
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">       
+                    <div class="sixty-five-percent mb-maroon" data-skill-level="65%">
+                        <div class="skill-name">
+                            <span>DSA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-progress">       
+                    <div class="fifty-percent mb-blue" data-skill-level="50%">
+                        <div class="skill-name">
+                            <span>Python </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="nwtworking" class="skill-progress">       
+                    <div class="ninty-percent mb-orange" data-skill-level="90%">
+                        <div class="skill-name">
+                            <span>Networking  </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>      
+        </section>
+
+
+     <!-- My Portfolios -->
+        <section id="portfolio"> 
+            <h1 class="section-heading mb75px">
+                <span>
+                <i class="fa-solid fa-list"></i>
+                </span>
+                <span>PORTFOLIO</span>
+            </h1>
+            
+            <div class="portfolio-progress">
+
+                <!-- CHATTING APP (GHOST TALK) -->
+                <div class="projects">
+                    <!-- Image to project live Link -->
+                    <a href="https://main--adorable-sprite-c55b6a.netlify.app/" alt="meal_app" target="_blank">
+                        <img src="./images/ChatApp.avif">
+                    </a>
+                    <!-- Info icon to ReadMe page-->
+                    <a href="https://github.com/VishnuAjk/Ghost-Talk/blob/main/README.md" target="_blank">
+                        <i class="fa-solid fa-info portfolio-info-icon"></i>
+                    </a>
+                </div>
+
+                <!-- SHOPPING APP BUYBUSY -->
+                <div class="projects">
+                    <!-- Image to project live Link -->
+                    <a href="https://65f537910df21d75b5ec3029--fanciful-moonbeam-e6437a.netlify.app/" alt="meal_app" target="_blank">
+                        <img src="./images/BuybusyApp.png">
+                    </a>
+                    <!-- Info icon to ReadMe page-->
+                    <a href="https://github.com/VishnuAjk/BuyBusy-Redux-App/blob/main/README.md" target="_blank">
+                        <i class="fa-solid fa-info portfolio-info-icon"></i>
+                    </a>
+                </div>
+
+                <!-- PLACEMENT CELL -->
+                <div class="projects">
+                    <!-- Image to project live Link -->
+                    <a href="https://placementnodejs.onrender.com" alt="placement_cell" target="_blank">
+                        <img src="./images/placementCell.png">
+                    </a>  
+                    <!-- Info icon to ReadMe page-->
+                    <a href="https://github.com/VishnuAjk/Placement-Cell-NodeJs/blob/main/README.md" target="_blank">
+                        <i class="fa-solid fa-info portfolio-info-icon"></i>
+                    </a>
+                </div>
+
+                <!-- TODO LIST APP -->
+                <div class="projects">
+                    <!-- Image to project live Link -->
+                    <a href="https://vishnuajk.github.io/To-Do-List-Web-App/" target="_blank">
+                        <img src="./images//TodoList.jpg">
+                    </a>
+                    <!-- Info icon to ReadMe page-->
+                    <a href="https://github.com/VishnuAjk/To-Do-List-Web-App/blob/main/README.md" target="_blank">
+                        <i class="fa-solid fa-info portfolio-info-icon"></i>
+                    </a>
+                </div>
+
+                <!-- NODE AUTHENTICATOR -->
+                <div class="projects">
+                    <!-- Image to project live Link -->
+                    <a href="https://nodejs-authenticator-fb3d.onrender.com/" alt="node_authenticator" target="_blank">
+                        <img src="./images/authentiator.png">
+                    </a> 
+                    <!-- Info icon to ReadMe page-->
+                    <a href="https://github.com/VishnuAjk/NodeJs-Authenticator/blob/main/README.md" target="_blank">
+                        <i class="fa-solid fa-info portfolio-info-icon"></i>
+                    </a>
+                </div>
+
+                <!-- MEAL APP -->
+                <div class="projects">
+                    <!-- Image to project live Link -->
+                    <a href="https://vishnuajk.github.io/Meal-Web-App/" alt="meal_app" target="_blank">
+                        <img src="./images//mealapp.jpeg">
+                    </a>
+                    <!-- Info icon to ReadMe page-->
+                    <a href="https://github.com/VishnuAjk/Meal-Web-App/blob/main/README.md" target="_blank">
+                        <i class="fa-solid fa-info portfolio-info-icon"></i>
+                    </a>
+                    
+                </div>
+
+                <!-- MUSIC PLAYER -->
+                <div class="projects">
+                   <a href="https://vishnuajk.github.io/MusicPlayer/">
+                        <img src="./images/musicplayerportfolio.png" alt="music_player" target="_blank">  
+                    </a>    
+                        
+                     <!-- Info icon to ReadMe page-->
+                     <a href="https://github.com/VishnuAjk/MusicPlayer/blob/main/README.md" target="_blank">
+                        <i class="fa-solid fa-info portfolio-info-icon"></i>
+                    </a>        
+                </div>
+
+                <!-- HABIT TRACKER -->
+                <div class="projects">
+                    <!-- Image to project live Link -->
+                    <a href="https://65f527595ee8bc6de0de8ae3--lucent-kangaroo-a8566d.netlify.app/" alt="meal_app" target="_blank">
+                        <img src="./images/habittracker.png">
+                    </a>
+                    <!-- Info icon to ReadMe page-->
+                    <a href="https://github.com/VishnuAjk/Habit-Tracker/blob/main/README.md" target="_blank">
+                        <i class="fa-solid fa-info portfolio-info-icon"></i>
+                    </a>
+                </div>
+
+
+                  <!-- Previous and Next buttons -->
+            <div class="carousel-btn carousel-prev">❮</div>
+            <div class="carousel-btn carousel-next">❯</div>
+            </div>
+            
+           
+            
+        </section>
+
+        <!-- Experinece Section -->
+
+        <section id="experience">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fa-solid fa-briefcase"></i>
+                </span>
+                <span>WORK EXPERIENCE</span>
+            </h1>
+            <div class="timeline">
+
+                <div class="timeline-divider">
+                    <div class="timeline-traveller">
+                        <i class="fa-solid fa-plane fa-rotate-90"></i>
+                    </div>
+                </div>
+
+                <div class="timeline-box">
+                    <h3>Natwest Group</h3>
+                    <span>Operation Analyst</span><br>
+                    <span>June 2019 Feb 2021</span>
+                    <p>
+                        Experienced Operation Analyst with a proven track record of optimizing business processes and enhancing operational efficiency. 
+                        Proficient in analyzing and interpreting complex data sets to drive strategic decision-making. 
+                        Skilled in identifying operational gaps and implementing effective solutions to streamline workflows.
+                        Proficient in deploying excellent communication and problem-solving skills, I am adept at resolving conflicts and ensuring customer satisfaction. 
+                        I have also served as a Subject Matter Expert (SME) in developing Excel-based automation tools. 
+                    </p>
+                    <h4>Skills Achieved/Process Experience</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i>&emsp;Issue Resolution Management</li>
+                        <li><i class="fas fa-check-circle"></i>&emsp;KYC Verification</li>
+                        <li><i class="fas fa-check-circle"></i>&emsp;Fraud Prevention</li>
+                        <li><i class="fas fa-check-circle"></i>&emsp;Risk Assessment</li>
+                        <li><i class="fas fa-check-circle"></i>&emsp;Process Automation</li>
+                    </ul>
+                </div>
+    
+            </div>
+           
+        </section>
+
+        <!-- Career Transition -->
+        <section id ="career">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fa-solid fa-arrow-up-right-dots"></i>
+                </span>
+                <span>
+                    Career Transition
+                </span>
+            </h1>
+            <div class="personal-goal">
+                <h3>Personal goal pursuit</h3>
+                <h4>Career Break</h4> 
+                <span> Mar 2021 - Apr 2023 · 2 yrs 2 mos</span>
+                <p>Chennai, Tamil NaduChennai, Tamil Nadu</p>
+                <p>Preparation for SSC Exam</p>
+                <p>
+                    During the mentioned period, I dedicated myself to rigorous preparation for the Staff 
+                    Selection Commission (SSC) exam, demonstrating my commitment to personal and professional 
+                    development. This intensive preparation allowed me to cultivate valuable skills such as disciplined time management, 
+                    problem-solving, and strategic planning.
+                </p>
+                <p>
+                    Engaging with comprehensive study materials, mock tests, and continuous learning, 
+                    I honed my abilities in data interpretation, quantitative aptitude, verbal reasoning and vocabulary —skills that are directly transferrable to a professional work environment. 
+                    The SSC exam preparation process not only enhanced my academic knowledge but also strengthened my determination, resilience, and focus.
+                </p>
+                <p>
+                    While preparing for the SSC exam was my primary focus during this period, I am eager to leverage the skills acquired and transition into a dynamic work environment. 
+                    I am confident that the discipline and dedication demonstrated throughout this period will contribute positively to my professional endeavors.
+                </p>
+                
+            </div>
+            <div class="career-path">
+                <h3>Career transition</h3>
+                <h4>Career Break</h4>
+                <span>May 2023 - Present · 1 yr</span>
+                <p>Alappuzha, KeralaAlappuzha, Kerala</p>
+                <p>Career Break Transition to Full Stack Developer (May/2023- Feb/2024):</p>
+                <p>
+                    During my career break, I strategically transitioned into the field of Information Technology, specifically focusing on becoming a Full Stack Developer. Recognizing the evolving landscape of technology, I dedicated this period to acquiring the necessary skills and knowledge to thrive in the IT industry.
+                </p>
+                <p>
+                    I embarked on an intensive self-study program, delving into various aspects of web development. This included mastering front-end technologies such as HTML, CSS, and JavaScript, as well as gaining proficiency in back-end technologies like Node.js, Express, and databases.
+                </p>
+                <p>
+                    To augment my practical learning, I pursued formal education in Full Stack Development through online courses of Coding Ninjas(an online learning platform) and obtained relevant certifications. These educational endeavors provided a structured and comprehensive understanding of the entire development stack.
+                </p>
+                <p>
+                    Understanding the importance of practical application, I actively engaged in real-world projects, building web applications from conception to deployment. These projects allowed me to apply theoretical knowledge to practical scenarios, honing my problem-solving and coding skills.
+                </p>
+                    
+                <p>
+                    This deliberate career transition has equipped me with a strong foundation in Full Stack Development. My commitment to continuous learning, combined with hands-on experience and formal education, positions me as a versatile and adaptable Full Stack Developer ready to contribute effectively to dynamic and innovative projects within the IT sector.
+                </p>
+                    
+                <p>
+                    Through this transition, I have not only embraced the challenges of entering a new field but have also demonstrated my resilience, determination, and passion for technology. I am excited about the prospect of leveraging these skills and experiences to make meaningful contributions as a Full Stack Developer in the ever-evolving IT landscape.
+                </p>
+                    
+            </div>
+        </section>
+
+        <section id="education">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fa-solid fa-school"></i>
+                </span>
+                <span>EDUCATION</span>
+            </h1>
+            <div class="education-path">
+                <div class="education-box">
+                    <h5>Jaya College Of Arts and Science</h5>
+                    <h6>B.Sc Electronics and Communication Science</h6>
+                    <span>June 2014  July 2017 </span><br>
+                    <p>
+                        A Bachelor of Science (BSc) in Electronics and Communication is an undergraduate degree program that provides a comprehensive understanding of electronics, communication systems, and related technologies. 
+                        The program focuses on theoretical knowledge and practical skills in areas such as electronic circuits, digital systems, signal processing, telecommunications, microprocessors, and more. 
+                        Graduates are equipped to design, develop, and maintain electronic and communication systems, and often pursue careers in fields like telecommunications, networking, broadcasting, electronics manufacturing, and research and development. 
+                    </p>
+
+                </div>
+                <div class="education-box">
+                    <h5>Jaya College Of Arts and Science</h5>
+                    <h6>M.Sc Applied Electronics</h6>
+                    <span>June 2017  June 2019 </span><br>
+                    <p>
+                        A Master of Science (MSc) in Applied Electronics is a postgraduate degree program that delves deeper into the field of electronics with a focus on practical applications and specialized knowledge. 
+                        The program emphasizes advanced topics such as advanced electronic circuits, embedded systems, communication systems, VLSI (Very Large Scale Integration) design, control systems, and more.
+                        Students gain expertise in designing and implementing electronic systems and devices for various applications, preparing them for careers in research, development, and innovation within the electronics industry. 
+                    </p>
+                </div>
+                <div class="education-box">
+                    <h5>National Small Industry Corporation</h5>
+                    <h6>Networking CCNA-Routing and Switching </h6>
+                    <span>May 2018 July 2018 </span><br>
+                    <p>
+                        In a CCNA Routing and Switching course, students delve into the foundational aspects of computer networking with a focus on Cisco-specific technologies and protocols. 
+                        The curriculum commences with an exploration of fundamental networking concepts such as OSI and TCP/IP models, followed by an in-depth study of IP addressing and subnetting, crucial skills for efficient network management. 
+                        Learners then progress to configuring and managing Cisco routers and switches, gaining expertise in VLANs, trunking, and EtherChannel. 
+                        Routing protocols like OSPF, EIGRP, and RIP are thoroughly covered, allowing students to implement and troubleshoot dynamic routing solutions.
+                    </p>
+                </div>
+                <div class="education-box">
+                    <h5>Coding Ninjas</h5>
+                    <h6>Full Stack Development </h6>
+                    <span>May 2023 Feb 2024 </span><br>
+                    <p>
+                        Full Stack Development course equips individuals with the skills and knowledge needed to create a complete web application, covering both front-end and back-end development. 
+                        Students typically learn to design interactive user interfaces, enhance user experience, and manage databases and servers. 
+                        The curriculum includes training in programming languages like HTML, CSS, JavaScript for the front end, and languages like Python, Java, or Node.js for the back end. 
+                        Also gain proficiency in using frameworks and libraries like React, Angular, or Vue.js for the front end and Express.js or Django for the back end. 
+                        The course covers databases (MongoDB), version control systems (e.g., Git), and deployment strategies, ensuring graduates can develop robust, scalable web applications. 
+                    </p>
+                </div>
+                <div class="education-divider">
+                    <div class="education-traveller">
+                        <i class="fa-solid fa-car-side fa-rotate-90"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    
+        <!-- Contact Section-->
+
+        <section id="contact">
+            <h1  class="section-heading mb75px">
+                <span>
+                    <i class="fa-solid fa-address-card"></i>
+                </span>
+                <span>CONTACT</span>
+            </h1>
+			<div class="contact-display">
+                <form class="contact-fields" action="mailto:comrade.che84@gmail.com" method="post" enctype="text/plain">
+                    <input id="yourname" name="yourname" type="text" placeholder="Your Name">
+                    <input id="email" name="email" type="email" placeholder="Your Email">
+                    <input id="message" name="message" type="text" placeholder="Message">
+                    <button type="submit" >SEND MESSAGE</button>  
+                </form>
+                <div class="contact-about">
+                  <h5>Get in touch</h5>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  <h5>My Access</h5>
+                  <div>
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    <span>Allapuzha, Kerala, India</span>
+                  </div>
+                  <div>
+                    <span><i class="fa-solid fa-mobile"></i></span>
+                    <span>+91-7358684954</span>
+                  </div>
+                  <div>
+                    <span><i class="fa-regular fa-envelope"></i></span>
+                    <span>vishnuajith1996@gmail.com</span>
+                  </div>
+                </div>
+                <!-- *************************** -->
+
+                <div id="social-container" class="social-bottom text-center">
+                    <ul class="social-icons horizontal-list text-center">
+                        <li>
+                            <a href="#">
+                             <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://auth.geeksforgeeks.org/user/comrade04p9">
+                                <i class="fa-solid fa-g"></i>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href="https://leetcode.com/Vishnu_vishu/">
+                                <i class="fa-solid fa-code"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                               <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+             
+        </section>
+    </main>
+
+    <script type="text/JavaScript" src="resume.js"></script>
+    <script type="text/JavaScript" src="cube.js"></script>
+</body>
+</html>
