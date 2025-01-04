@@ -1,12 +1,11 @@
 # Hi there, I'm Vishnu! 👋
 
-I'm a Full Stack Developer(learner). I enjoy building web applications and exploring new technologies.
+I'm a Full Stack Developer. I enjoy building web applications and exploring new technologies.
 
 
-## 🌱 I’m currently learning
+## 🌱 I’m currently working as an intern
 
 - Full Stack Development
-- Ethical hacking 
 
 ## 👯 I’m looking to collaborate on
 
