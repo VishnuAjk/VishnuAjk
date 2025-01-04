@@ -374,6 +374,7 @@ background-color: #f1f1f1;
 .timeline{
     display: flex;
     position: relative;
+    flex-direction: column-reverse;
 }
 
 .timeline-box{
@@ -415,11 +416,12 @@ background-color: #f1f1f1;
     z-index: 5;/* Makes plane visible over the dot */
     color: #2857a4;
     font-size: 1.2rem;
+    transform: rotate(-180deg) translateX(-10px);
     
 }
 
 .timeline-box h3{
-    padding-left: 30px;
+    padding-left: 0px;
     color: #7e0f88;
     margin: 0%;
     margin-bottom: 10px;
