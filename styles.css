@@ -326,38 +326,21 @@ background-color: #f1f1f1;
 .mb-blue{
     background-color: #2857a4;
 }
-
-.eighty-five-percent{
-    width: 85%;
-    height:inherit;  /* will inherit the height of parent*/
+.mb-red{
+    background-color: #ff0101;
 }
 
-.eighty-percent{
-    width: 80%;
-    height:inherit; 
-}
-
-.ninty-percent{
-    width: 90%;
-    height:inherit; 
-}
 .mb-orange{
     background-color: rgb(224, 79, 21);
 }
-.sixty-five-percent{
-    width: 65%;
-    height: inherit;
-}
+
 .mb-maroon{
     background-color: rgb(160, 20, 20);
 }
 .mb-purple{
     background-color: rgb(140, 51, 167);
 }
-.fifty-five-percent{
-    width: 50%;
-    height: inherit;
-}
+
 .mb-skyBlue{
     background-color: rgb(26, 208, 214);
 }
@@ -420,23 +403,60 @@ background-color: #f1f1f1;
     
 }
 
-.timeline-box h3{
+.timeline-box h4{
     padding-left: 0px;
-    color: #7e0f88;
+    margin-bottom: 0px;
     margin: 0%;
-    margin-bottom: 10px;
-
+    font-size: 1rem;
 }
-.timeline-box h3::before{
+.timeline-box h2{
+    padding-left: 0px;
+    margin-bottom: -10px;
+    margin: 0%;
+    font-size: 1.5rem;
+}
+.timeline-box ul{
+    margin-top: 0px;
+}
+.ultiweb-header{
+    color: #565a21;
+    padding-left: 20px !important;
+}
+
+.natwest-header{
+    color: #7e0f88;
+    padding-left: 20px !important;
+}
+.natwest-header::before{
     content: '';
     position: absolute;
-    top: 18px;
+    top: 30px;
     left: 10px;
     border-radius: 20%;
-    background-image: url(/MainProjects/ResumeProject/icons/natwest.png);
+    background-image: url(/images/natwest.jpeg);
     width:25px;
     height: 25px;
     background-size: contain;
+}
+
+.ultiweb-header::before{
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    border-radius: 20%;
+    background-image: url(/images/ultiweb_technologies.jpeg);
+    width:28px;
+    height: 28px;
+    background-size: contain;
+}
+.period-of-work{
+    font-size: smaller;
+}
+.position-at-org{
+    color: rgba(63, 57, 57, 0.952);
+    font-weight: 700;
+  
 }
 
 
@@ -467,6 +487,25 @@ background-color: #f1f1f1;
     background-color: #fff;
     opacity: 0.9;
     padding: 20px;
+}
+
+.personal-goal-title, .career-transition-title{
+    margin-bottom: 0;
+    margin-top: 2px;
+    color: rgb(41, 37, 37);
+    font-size: 1.5rem;
+}
+.personal-goal-header, .career-transition-header{
+    margin-top: -5px;
+    margin-bottom: 0;
+}
+
+.personal-goal-period, .location, .career-transition-period{
+    margin-top: 0;
+    font-size: 0.8rem;
+}
+.task-title{
+    font-weight: 700;
 }
 
 .career-path{
@@ -532,10 +571,9 @@ background-color: #f1f1f1;
 }
 
 .education-box h5{
-    color: #c46e36;
-    font-size: x-large;
+    font-size: 1.3rem;
     margin-top: 10px;
-    
+    margin-left: 35px;
 }
 .education-box h6{
     color: rgb(44, 41, 41);
@@ -545,18 +583,18 @@ background-color: #f1f1f1;
 
 .education-box:nth-child(2n+1)::after{
     content: '';
-    position: absolute; /* Usually its after content, but here we also want it to be absolute, so that we can decide where to place it*/
+    position: absolute; 
     top: 11%;
-    left: 110.5%;
+    left: 110%;
     border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
     background-color: grey;
-    z-index: 4; /* Makes dots visible over the line */
+    z-index: 4; 
 }
 .education-box:nth-child(2n)::after{
     content: '';
-    position: absolute; /* Usually its after content, but here we also want it to be absolute, so that we can decide where to place it*/
+    position: absolute; 
     top: 10%;
     left: -10.5%;
     border-radius: 50%;
@@ -566,7 +604,55 @@ background-color: #f1f1f1;
     z-index: 4; /* Makes dots visible over the line */
 }
 
+.institution-name{
+    margin-bottom: 20px;
+}
+.field-of-education{
+    margin-bottom: 0;
+}
+.jaya-college-name{
+    color: #1c417c;
+}
+.jaya-college-name::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    border-radius: 20%;
+    background-image: url(/images/jaya_college.jpeg);
+    width:28px;
+    height: 28px;
+    background-size: contain;
+}
+.nsic-name{
+    color: #21331a;
+}
+.nsic-name::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    border-radius: 20%;
+    background-image: url(/images/NSIC_logo.jpeg);
+    width:32px;
+    height: 32px;
+    background-size: contain;
+}
 
+.coding-ninjas-name{
+    color: rgb(206, 95, 55);
+}
+.coding-ninjas-name::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    border-radius: 20%;
+    background-image: url(/images/coding_ninjas_logo.jpeg);
+    width:28px;
+    height: 28px;
+    background-size: contain;
+}
 /* For mobile view */
 @media (max-width: 768px) {
     .education-box {
