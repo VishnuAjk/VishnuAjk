@@ -3,7 +3,7 @@
 I'm a Full Stack Developer. I enjoy building web applications and exploring new technologies.
 
 
-## 🌱 I’m currently working as an intern
+## 🌱 I’m currently working as a Associate Software Engineer
 
 - Full Stack Development
 
