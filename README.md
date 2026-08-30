@@ -1,39 +1,86 @@
-# Hi there, I'm Vishnu! 👋
+# Hi, I'm Vishnu Ajikumar 👋
 
-I'm a Full Stack Developer. I enjoy building web applications and exploring new technologies.
+### Technical Project Manager | Software Engineer | Cloud & DevOps
 
+I’m a **Technical Project Manager with a software engineering background**, focused on turning requirements into structured, reliable software delivery.
 
-## 🌱 I’m currently working as a Associate Software Engineer
+Having worked hands-on in development before moving into project management, I bring a technical perspective to planning, estimation, architecture discussions, debugging, releases, and engineering coordination. I enjoy working at the intersection of **product requirements, engineering, QA, DevOps, and client communication**.
 
-- Full Stack Development
+---
 
-## 👯 I’m looking to collaborate on
+## 👨‍💻 About Me
 
-- Open source projects
-- Web development projects
+* 💼 Technical Project Manager with hands-on software development experience
+* 🔄 Managing software delivery across **Development → QA → UAT → Production**
+* 📋 Working with **Agile/Scrum, Jira, sprint planning, estimation, and release management**
+* 🧩 Translating business requirements into structured engineering tasks and workflows
+* 🛠️ Comfortable troubleshooting applications, servers, deployments, APIs, and production issues
+* ☁️ Working with **AWS, Linux environments, CI/CD and cloud infrastructure**
+* 🤖 Exploring **AI-assisted software development, AI agents, and structured AI engineering workflows**
+* 📈 Focused on improving engineering processes, delivery visibility, quality, and team productivity
 
-## 📫 How to reach me
+---
 
-- Email: vishnuajith1996@gmail.com
-- LinkedIn: (https://www.linkedin.com/in/vishnu-a-604a95179/)
+## 🛠️ Technical Stack
 
-## ⚡ Fun fact
+**Development**
 
-Here's a fun fact about me: I'm a Rubik's Cube enthusiast, skilled at solving it quickly. 
-Beyond that, I'm fluent in four languages (English, Malayalam, Tamil, Hindi) also learning japansese 
-as a foriegn language and I hail from Kerala, where we have the vibrant art forms like Kathakali, Mohiniyattam,
-and Theyyam, its delicious cuisine like appam, stew, and seafood specialties, along with its serene backwaters and lush greenery. 
-In my free time, I enjoy diving into books, particularly stories and biographies. 
-As an anime fan, I'm always exploring new series. 
-My ultimate goal is to become an expert in various tech fields, 
-including Coding, Ethical hacking, Networking, AI, and Robotics.
+`PHP` · `Laravel` · `JavaScript` · `Node.js` · `MySQL` · `REST APIs`
 
+**Cloud & DevOps**
 
-## 🚀 My Top Projects
+`AWS` · `EC2` · `SES` · `Linux` · `SSH` · `PM2` · `Git` · `GitHub` · `CI/CD`
 
-- Ghost-Talks (chatting App)
-- Placement-Cell (registering and schedualing interviews )
-- Todo-List App (Daily tasks managing app)
+**Project & Delivery**
 
-Feel free to explore my repositories and reach out if you have any questions or suggestions!
+`Jira` · `Agile` · `Scrum` · `Sprint Planning` · `Release Management` · `UAT` · `QA Coordination`
 
+**Tools & Environment**
+
+`VS Code` · `WSL / Ubuntu` · `Microsoft Teams` · `GitHub`
+
+---
+
+## 🚀 What I Work On
+
+My work typically spans the complete software delivery lifecycle:
+
+**Requirements → Planning → Development → Code Review → QA → UAT → Release → Production**
+
+I work closely with developers, QA engineers, stakeholders, and clients to keep requirements clear, identify blockers early, maintain delivery visibility, and ensure releases are stable.
+
+I also remain technically involved where needed — investigating application issues, reviewing implementation approaches, working with Git workflows, supporting deployments, troubleshooting Linux environments, and coordinating cloud infrastructure changes.
+
+---
+
+## 🤖 AI-Assisted Engineering
+
+I'm particularly interested in using AI beyond simple code generation.
+
+My current focus includes:
+
+* AI-assisted requirement engineering
+* Structured prompts and engineering guidelines for AI agents
+* AI-driven implementation workflows
+* Repository and codebase analysis
+* Requirement → Implementation → QA traceability
+* AI-assisted documentation
+* Automated engineering and delivery workflows
+
+The goal is to use AI while maintaining **clear requirements, human oversight, predictable implementation, and strong engineering standards**.
+
+---
+
+## 🎯 Engineering Philosophy
+
+> **Clear requirements. Simple processes. Strong ownership. Reliable delivery.**
+
+I believe good software engineering is not only about writing good code. It requires clear communication, thoughtful planning, disciplined execution, effective testing, and continuous improvement across the entire delivery lifecycle.
+
+---
+
+## 📫 Connect
+
+I'm always interested in conversations around:
+
+**Software Engineering · Technical Project Management · Cloud · DevOps · AI-Assisted Development · Engineering Productivity**
